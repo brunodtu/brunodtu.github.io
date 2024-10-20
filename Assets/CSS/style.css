@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    width: 1070px;
+    margin: auto;
+}
+header{
+    background-color: #252525;
+    color: #fff;
+    font-family: 'Oswald';
+    padding: 10px 0;
+}
+span{
+    font-weight: 700;
+    font-size: 23px;
+    color: #CE6E4F;
+}
+.name{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* HERO */
+.s1{
+    background-color: #252525;
+    color: #fff;
+}
+.hero{
+    display: flex;
+}
+.hero h1{
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 54px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.hero p{
+    font-family: 'Livvic';
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.left-side{
+    text-align: center;
+    margin-right: 70px;
+}
+.left-side img{
+    width: 512px;
+    height: 356px;
+}
+.right-side{
+    max-width: 470px;
+    background-color: #fff;
+    color: #252525;
+    padding: 20px 13px;
+}
+.right-side h3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Livvic';
+    color: #9e0b0f;
+}
+.right-side label{
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 12px;
+}
+.right-side .field{
+    width: 410px;
+    height: 35px;
+    border: 1px solid #ddd;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.right-side div{
+    width: inherit;
+    text-align: center;
+    margin-top: 20px;
+}
+.right-side button{
+    background-color: #9e0b0f;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+
+.s2{
+    margin-top: -200px;
+    background-color: #fff;
+}
+.s2c{
+    display: flex;
+    flex-direction: column;
+}
+.phrase{
+    text-align: center;
+    font-family: 'Livvic';
+    padding-top: 230px;
+}
+.phrase h1{
+    font-weight: 400;
+}
+.blocks{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    flex: 1;
+    text-align: center;
+}
+.item p{
+    padding: 10px 2px;
+    font-size: 15px;
+    font-family: 'Livvic';
+    font-weight: 400;
+}
+footer{
+    background-color: #252525;
+    color: #fff;
+    padding: 40px 0;
+}
+.fc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.foot-left{
+    font-family: 'Oswald';
+    font-weight: 300;
+}
+.foot-left a{
+    color: #eee;
+}
+.foot-right p{
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.foot-right p span{
+    color: #7b7b7b;
+    font-size: 15px;
+}
